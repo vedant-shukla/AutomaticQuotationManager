@@ -1,0 +1,13 @@
+changes made:
+
+in pdf the alignment of address is centered.
+The two logos of other company is deleted.
+The ADD button is removed.
+The height of table headers is increased.
+Made the first option of all dropdown menus as SELECT.
+
+
+
+
+
+

@@ -1,0 +1,222 @@
+       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+       <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+
+h2{
+	color:red;
+
+}
+
+.main_logo
+{
+	
+	margin-left:35.5%;
+	
+}
+
+.address
+{
+	
+	text-align:center;
+	
+}
+
+.hr
+{
+ color:#286090;
+ background-color:red;
+
+ }
+
+.other_logo_1
+{
+	
+	width:50%;
+	height:5%;
+	float:left;
+	
+}
+
+.other_logo_2
+{
+	
+	width:50%;
+	height:5%;
+	float:left;
+	margin-left:20.5%;
+	
+}
+
+.quotation
+{
+	height:50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#286090;
+    color:white;
+	font-size:200%
+}
+
+.quotation_label
+{
+	margin-left:41%;
+}
+
+.division
+{
+	margin-left:27%;	
+}
+
+.division_label
+{
+	font-size:130%;
+	margin-left:15%;
+	float:left;
+	
+}
+
+.division_value
+{
+	font-size:130%;
+	margin-left:10%;
+	float:left;
+}
+
+.mid_cust
+{
+	color:#F9F9F9;
+}
+
+.customer_name
+{
+	float:left;
+	background-color:#F9F9F9;
+	height:7%;
+	
+}
+
+
+.customer_label
+{
+	display:inline-block;
+	margin-top:90%;
+	font-size:130%;
+	
+}
+
+.customer_value
+{
+	font-size:130%;
+	
+}
+
+.date_label
+{
+	font-size:130%;
+	
+}
+
+.date_value
+{
+	font-size:130%;
+	margin-left:10%;
+}
+
+.table
+{
+	font-size:130%;
+}
+
+.row2
+{
+	margin-top:2%;
+}
+
+.payment_terms_label
+{
+	float:left;
+	font-size:130%;
+	
+}
+
+.mid
+{
+	color:white;
+	width:50%;
+}
+.payment_terms_value
+{
+	display:block;
+	margin-left:10%;
+	font-size:130%;
+}
+
+
+.packing_details_label
+{
+	display:block;
+	font-size:130%;
+	float:left;
+}
+
+.packing_details_value
+{
+	display: block;
+	margin-left:10%;
+	font-size:130%;
+}
+
+.shipping_shedule_label
+{
+	font-size:130%;
+}
+
+.shipping_shedule_value
+{
+	font-size:130%;
+}
+
+.modeof_transport_label
+{
+	font-size:130%;
+}
+
+.modeof_transport_value
+{
+	font-size:130%;
+}
+
+.validity_label
+{
+	font-size:130%;
+}
+
+.validity_value
+{
+	font-size:130%;
+}
+
+.remarks_label
+{
+	font-size:130%;
+}
+
+.remarks_value
+{
+	font-size:130%;
+}

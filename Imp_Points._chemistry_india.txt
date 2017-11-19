@@ -1,0 +1,66 @@
+I need to use session variable to send data from quotation form to next page.
+
+To convert a js variable to php follow the link 2 nd solution.
+	http://stackoverflow.com/questions/11482418/how-to-convert-javascript-variable-value-into-php-variable
+
+
+
+
+
+Today's task : 
+	http://w3init.com/php/libraries/generate-pdf-from-html-code-in-php-using-mpdf/
+	https://mpdf.github.io/getting-started/creating-your-first-file.html
+
+
+	Add on blur on text boxes on table and see that they are also refreshed.	
+
+
+
+
+Things I need to check:
+	Check the error page when server is down.
+	There is a problem in dropdown as they are not storing the value that has been presses and are instead returning to default values.
+	Also see that same companies are not selected in the dropdown.
+	Unset the session variables once the user exits the page.
+	Also check if the user has pressed select product first then no useless sessions are not set.
+	Currently the values of division cust name and date is stored when select product button is pressed.
+	Add a working search panel in supplier and product.
+	In the pdf in the COA section check whether if text is written then only it should be visible and if file is only there then PFA should come and accordingly.
+	
+	
+	
+Things that I have done:
+
+When a dropdown is selected the AJAX is triggered on ONCHANGE EVENT  and i also store the id of the company in session variable.
+whenever a page is refreshed then iamges are brought back by session variables.
+
+Also whenver the select product or select supplier button is selected than event is triggered which stores values of text boxes and all the dropdown that are selected.
+
+
+
+
+Test Cases :
+All the values preserved when page in refreshed.
+Whenever select button or any other button is pressed on the page all the values are preserved.
+
+
+
+
+Variables Name
+
+	dropdown 1 for main company's logo :  $_SESSION['dropdown1_id']
+	dropdown 2 for 1st company's logo  :  $_SESSION['dropdown2_id']
+	dropdown 2 for 2nd company's logo  :  $_SESSION['dropdown2_id']
+	division text box				   :  $_SESSION['division_value']
+	customer name   				   :  $_SESSION['customer_name']
+	date 							   :  $_SESSION['date']
+	payment details					   :  $_SESSION['dropdown4_value'] 
+    packing details					   :  $_SESSION['dropdown5_value']	
+    shipping details				   :  $_SESSION['dropdown4_value']
+    Mode of transport				   :  $_SESSION['dropdown4_value']
+	Value							   :  $_SESSION['dropdown4_value']
+	Remarks							   :  $_SESSION['dropdown4_value']
+ 	
+	supplier_1 = $_SESSION['supplier_1']
+	product_1 =  $_SESSION['product_1']
+	cas_no_1 =  $_SESSION['cas_no_1']
